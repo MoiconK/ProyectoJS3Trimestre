@@ -1,0 +1,239 @@
+/* COMPONENTES DE LA PÁGINA DEL JUEGO */
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    background-image:url(../img/fondojuego.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#pantalla{
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    border: 10px solid rgb(0, 118, 173);
+    border-radius: 10px;
+    width: 1600px;
+    height: 800px;
+}
+
+#fondojuego {
+    width: 1600px;
+    height: 800px;
+    z-index: 0;
+}
+
+#start {
+    display: block;
+    position: fixed;
+    bottom: 40%;
+    left: 43%;
+    font-size: 80px;
+    z-index: 10;
+    cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 15px #528ecc;
+    box-shadow:inset -1px 1px 0px -50px #bbdaf7;
+	background:linear-gradient(to bottom, #7affbf 5%, #2fa85f 100%);
+	background-color:#7affbf;
+	border-radius:9px;
+	border:1px solid #005ab3;
+}
+
+#start:hover {
+	background:linear-gradient(to bottom, #2fa85f 5%, #7affbf 100%);
+	background-color:#2fa85f;
+}
+#start:active {
+	position: fixed;
+	bottom: 41%
+}
+
+#restart {
+    display: none;
+    position: fixed;
+    bottom: 40%;
+    left: 40%;
+    font-size: 80px;
+    z-index: 10;
+    cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 15px #528ecc;
+    box-shadow:inset -1px 1px 0px -50px #bbdaf7;
+	background:linear-gradient(to bottom, #7affbf 5%, #2fa85f 100%);
+	background-color:#7affbf;
+	border-radius: 9px;
+	border:1px solid #005ab3;
+    scale: 1;
+}
+
+#restart:hover {
+	background:linear-gradient(to bottom, #2fa85f 5%, #7affbf 100%);
+	background-color:#2fa85f;
+}
+#restart:active {
+	position: fixed;
+	bottom: 41%
+}
+
+/* COMPONENTES DEL JUEGO */
+
+#contador {
+    display: block;
+    position: fixed;
+    font-family: 'Koulen', cursive;
+    z-index: 20;
+    bottom: 77%;
+    left: 81%;
+    font-size: 60px;
+    color: brown;
+}
+
+#temporizador {
+    display: block;
+    position: fixed;
+    font-family: 'Koulen', cursive;
+    z-index: 20;
+    bottom: 77%;
+    left: 9%;
+    font-size: 60px;
+    color: brown;
+}
+
+/* DIANAS */
+
+/* FILA 1 */
+
+.fila1 {
+    width: 9.3%;
+}
+
+#dia1 {
+    display: block;
+    position: fixed;
+    bottom: 250px;
+    left: 180px;
+    z-index: 1;
+}
+
+#dia2 {
+    display: block;
+    position: fixed;
+    bottom: 290px;
+    left: 410px;
+    z-index: 1;
+}
+
+#dia3 {
+    display: block;
+    position: fixed;
+    bottom: 280px;
+    left: 700px;
+    z-index: 1;
+}
+
+#dia4 {
+    display: block;
+    position: fixed;
+    bottom: 270px;
+    left: 1100px;
+    z-index: 1;
+}
+
+#dia5 {
+    display: block;
+    position: fixed;
+    bottom: 280px;
+    left: 1520px;
+    z-index: 1;
+}
+
+/* FILA 2 */
+
+.fila2 {
+    width: 7%;
+}
+
+#dia6 {
+    display: block;
+    position: fixed;
+    bottom: 550px;
+    left: 190px;
+    z-index: 1; 
+}
+
+#dia7 {
+    display: block;
+    position: fixed;
+    bottom: 470px;
+    left: 490px;
+    z-index: 1; 
+}
+
+#dia8 {
+    display: block;
+    position: fixed;
+    bottom: 500px;
+    left: 820px;
+    z-index: 1; 
+}
+
+#dia9 {
+    display: block;
+    position: fixed;
+    bottom: 560px;
+    left: 1190px;
+    z-index: 1; 
+}
+
+#dia10 {
+    display: block;
+    position: fixed;
+    bottom: 550px;
+    left: 1550px;
+    z-index: 1; 
+}
+
+/* FILA 3 */
+
+.fila3 {
+    width: 4%;
+}
+
+#dia11 {
+    display: block;
+    position: fixed;
+    bottom: 720px;
+    left: 300px;
+    z-index: 1; 
+}
+
+#dia12 {
+    display: block;
+    position: fixed;
+    bottom: 630px;
+    left: 1000px;
+    z-index: 1; 
+}
+
+#dia13 {
+    display: block;
+    position: fixed;
+    bottom: 700px;
+    left: 1450px;
+    z-index: 1; 
+}
+
+
